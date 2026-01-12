@@ -8,14 +8,18 @@
         marquee{color:red;background-color: aquamarine;}
     </style>
     <style>
-     .centerImage {
+      .centerImage {
       display: block;
-      margin-left: auto;
-      margin-right: auto;
+      margin: auto;
       padding: 5px;
-      width: 500px;
-      height: 300px;
+      width: 100%;
+      height: auto;
       object-fit: fill;
+
+      .blurred-background {
+      background-image:url(my-file:///C:/Users/NIKITA/Downloads/burger3.jpg);
+        filter: blur(0px);
+      }
     }
 </head>
 <body>
@@ -341,6 +345,7 @@
 
 </body>
 </html>
+
 
 
 
